@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct RecipeListView: View {
+    
+    @StateObject var recipeData = RecipeData()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List {
+            ForEach(recipes) { recipe in
+                Text(recipe.mainInformation.name)
+            }
         }
-        .padding()
+        .navigationTitle(navigationTitle)
+    }
+}
+
+extension RecipeListView {
+    var recipes: [Recipe] {
+        return recipeData.recipes
+    }
+    
+    var navigationTitle: String {
+        return "All Recipes"
     }
 }
 
