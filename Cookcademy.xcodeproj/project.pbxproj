@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C414C4662A044A2000607DCD /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414C4652A044A2000607DCD /* RecipeDetailView.swift */; };
 		C4ECB9642A0431B70097D6AE /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECB9632A0431B70097D6AE /* RecipeData.swift */; };
 		C4EE69902A040F5700DDDD04 /* CookcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EE698F2A040F5700DDDD04 /* CookcademyApp.swift */; };
 		C4EE69922A040F5700DDDD04 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EE69912A040F5700DDDD04 /* RecipeListView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C414C4652A044A2000607DCD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		C4ECB9632A0431B70097D6AE /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		C4EE698C2A040F5700DDDD04 /* Cookcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EE698F2A040F5700DDDD04 /* CookcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookcademyApp.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				C4EE69912A040F5700DDDD04 /* RecipeListView.swift */,
+				C414C4652A044A2000607DCD /* RecipeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4EE699F2A04131000DDDD04 /* Recipe.swift in Sources */,
+				C414C4662A044A2000607DCD /* RecipeDetailView.swift in Sources */,
 				C4EE69922A040F5700DDDD04 /* RecipeListView.swift in Sources */,
 				C4ECB9642A0431B70097D6AE /* RecipeData.swift in Sources */,
 				C4EE69902A040F5700DDDD04 /* CookcademyApp.swift in Sources */,
