@@ -12,6 +12,7 @@
 		C4EE69942A040F5900DDDD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EE69932A040F5900DDDD04 /* Assets.xcassets */; };
 		C4EE69972A040F5900DDDD04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EE69962A040F5900DDDD04 /* Preview Assets.xcassets */; };
 		C4EE699F2A04131000DDDD04 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EE699E2A04131000DDDD04 /* Recipe.swift */; };
+		C4EE69A12A041D1B00DDDD04 /* AllRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EE69A02A041D1B00DDDD04 /* AllRecipes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C4EE69932A040F5900DDDD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EE69962A040F5900DDDD04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4EE699E2A04131000DDDD04 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		C4EE69A02A041D1B00DDDD04 /* AllRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecipes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C4EE699E2A04131000DDDD04 /* Recipe.swift */,
+				C4EE69A02A041D1B00DDDD04 /* AllRecipes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				C4EE699F2A04131000DDDD04 /* Recipe.swift in Sources */,
 				C4EE69922A040F5700DDDD04 /* ContentView.swift in Sources */,
 				C4EE69902A040F5700DDDD04 /* CookcademyApp.swift in Sources */,
+				C4EE69A12A041D1B00DDDD04 /* AllRecipes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
