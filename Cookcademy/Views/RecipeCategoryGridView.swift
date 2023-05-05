@@ -18,6 +18,7 @@ struct RecipeCategoryGridView: View {
                     CategoryView(category: category)
                 }
             })
+            .padding()
             .navigationTitle("Categories")
         }
     }
@@ -32,6 +33,8 @@ struct CategoryView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .opacity(0.8)
+                .cornerRadius(10)
+                .shadow(radius: 3)
             Text(category.rawValue)
                 .font(.title)
                 .bold()
