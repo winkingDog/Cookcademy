@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4145A8F2A05014000DE5631 /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4145A8E2A05013F00DE5631 /* RecipeCategoryGridView.swift */; };
 		C414C4662A044A2000607DCD /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414C4652A044A2000607DCD /* RecipeDetailView.swift */; };
 		C414C4692A0472D600607DCD /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414C4682A0472D600607DCD /* AppColor.swift */; };
 		C4ECB9642A0431B70097D6AE /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECB9632A0431B70097D6AE /* RecipeData.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4145A8E2A05013F00DE5631 /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
 		C414C4652A044A2000607DCD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		C414C4682A0472D600607DCD /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		C4ECB9632A0431B70097D6AE /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			children = (
 				C4EE69912A040F5700DDDD04 /* RecipeListView.swift */,
 				C414C4652A044A2000607DCD /* RecipeDetailView.swift */,
+				C4145A8E2A05013F00DE5631 /* RecipeCategoryGridView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				C414C4692A0472D600607DCD /* AppColor.swift in Sources */,
 				C4ECB9642A0431B70097D6AE /* RecipeData.swift in Sources */,
 				C4EE69902A040F5700DDDD04 /* CookcademyApp.swift in Sources */,
+				C4145A8F2A05014000DE5631 /* RecipeCategoryGridView.swift in Sources */,
 				C4EE69A12A041D1B00DDDD04 /* AllRecipes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
