@@ -37,6 +37,17 @@ struct RecipeListView: View {
                 NavigationView {
                     ModifyRecipeView(recipe: $newRecipe)
                         .navigationTitle("Add a new recipe")
+                        .toolbar(content: {
+                            ToolbarItem(placement: .confirmationAction, content: {
+                                Button(action: {
+                                    recipeData.recipes.append(newRecipe)
+                                    isPresenting = false
+                                }, label: {Text("Add")})
+                            })
+                            ToolbarItem(placement: .cancellationAction, content: {
+                                Button(action: {isPresenting = false}, label: {Text("Cancel")})
+                            })
+                        })
                 }
             })
         }
