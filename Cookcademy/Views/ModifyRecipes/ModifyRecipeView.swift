@@ -10,15 +10,35 @@ import SwiftUI
 struct ModifyRecipeView: View {
     
     @Binding var recipe: Recipe
+    @State private var selection = Selection.main
+    enum Selection: String, CaseIterable {
+        case main = "Main Info"
+        case ingredients = "Ingredients"
+        case directions = "Directions"
+    }
+    
     
     var body: some View {
-        Button("Fill with test data") {
-            recipe.mainInformation = MainInformation(name: "test", description: "test", author: "test", category: .breakfast)
-            recipe.directions = [Direction(description: "test",
-                                           isOptional: false)]
-            recipe.ingredients = [Ingredient(name: "test",
-                                             quantity: 1.0,
-                                             unit: .none)]
+        
+        VStack {
+            Picker("View", selection: $selection) {
+                ForEach(Selection.allCases, id: \.self) { view in
+                    Text(view.rawValue)
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding()
+            
+            switch selection {
+            case .main:
+                ModifyMainInformation(mainInformation: $recipe.mainInformation)
+            case .ingredients:
+                Text("Ingredients")
+            case .directions:
+                Text("Directions")
+            }
+            
+            Spacer()
         }
     }
 }
